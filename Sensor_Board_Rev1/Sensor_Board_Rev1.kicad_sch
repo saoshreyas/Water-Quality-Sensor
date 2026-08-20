@@ -1,0 +1,182 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "757ff33a-3003-4f35-ac3f-a6ccfb0c40fd")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 33.02 63.5)
+		(size 27.94 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23a1b178-9354-476f-b752-035577049f51")
+		(property "Sheetname" "pH sensor"
+			(at 33.02 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pH.kicad_sch"
+			(at 33.02 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Board_Rev1"
+				(path "/757ff33a-3003-4f35-ac3f-a6ccfb0c40fd"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 49.53)
+		(size 27.94 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "382ec8ab-7f23-413d-b3ad-f298c98d2e2a")
+		(property "Sheetname" "Turbitity Sensor"
+			(at 33.02 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Turbitity_Sensor.kicad_sch"
+			(at 33.02 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Board_Rev1"
+				(path "/757ff33a-3003-4f35-ac3f-a6ccfb0c40fd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 78.74)
+		(size 27.94 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a44d30df-cee0-4945-98d7-9257e6c77acf")
+		(property "Sheetname" "IMU"
+			(at 33.02 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "imu.kicad_sch"
+			(at 33.02 88.2146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Board_Rev1"
+				(path "/757ff33a-3003-4f35-ac3f-a6ccfb0c40fd"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 96.52)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "af8a8e55-350d-47a1-a6c0-bca3807a28eb")
+		(property "Sheetname" "TDS"
+			(at 34.29 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "tds.kicad_sch"
+			(at 34.29 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Board_Rev1"
+				(path "/757ff33a-3003-4f35-ac3f-a6ccfb0c40fd"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
